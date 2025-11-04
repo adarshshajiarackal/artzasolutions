@@ -824,8 +824,9 @@ section,
 
 .hero .hero-visual .image-wrapper .main-image {
   width: 100%;
-  height: auto;
+  height: 70vh;
   display: block;
+  object-fit: cover;
 }
 
 .hero .hero-visual .image-wrapper .floating-element {
@@ -4424,3 +4425,15 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/*------------------------
+ #custom css
+ --------------------*/
+ .sitename{
+    font-size: 72px;
+  background: -webkit-linear-gradient(#ff8800, #ffc400);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  font-family: orbitron, sans-serif;
+ }

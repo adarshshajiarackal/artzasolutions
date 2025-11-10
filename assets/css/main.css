@@ -4464,3 +4464,10 @@ section,
   top: 10px;
   right: 10px;
 }
+.contact{
+    display: grid; /* Makes the body a grid container */
+  place-items: center; /* Centers content both horizontally and vertically */
+  min-height: 100vh; 
+  max-height: auto;
+  margin: 0 auto; /* Removes default body margin */
+}

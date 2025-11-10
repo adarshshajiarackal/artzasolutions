@@ -55,8 +55,21 @@
   border: 1px solid rgba(255, 255, 255, 0.15); /* Soft border for glass edge */
   border-radius: 16px; /* Smooth corners */
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); /* Depth and shadow */
-  color: #fff; /* Text stands out on the dark glass */
+  color: #13a8ff; /* Text stands out on the dark glass */
    place-items: center;
+   transition:all .3s ease-in ;
+    }
+    .cus-link i{
+        transition: all .3s ease-in;
+    }
+    .cus-link:hover i {
+        scale:1.2;
+        rotate: 10deg;
+        color: white;
+    }
+    .cus-link:hover{
+        background:linear-gradient( #13a9ffda,rgb(0, 225, 255));
+        box-shadow: 2px 2px 10px  #13a9ff83;
     }
  </style>
     </head>
@@ -68,7 +81,7 @@
                     <div class="d-flex p-3">
                     <div class="w-100">
                         <div class="d-flex column-gap-3 justify-content-center">
-                            <a href="tel:+">
+                            <a href="tel:+"  class="phone-link" aria-label="Call">
                                 <div
                                     class="d-flex justify-content-center align-content-between cus-link p-3 rounded-circle"
                                     style="height: 4rem;width: 4rem;">
@@ -166,10 +179,16 @@
                                       <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3913.778611274799!2d75.79822097504812!3d11.204009388971972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDEyJzE0LjQiTiA3NcKwNDgnMDIuOSJF!5e0!3m2!1sen!2sin!4v1762503791045!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-12  d-block align-items-center">
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex align-items-center gap-3">
                                         <i class="bi bi-geo-alt-fill " style="font-size: 28px;"></i>
                                          <h4 class="pt-2">
                                             Mathottam Arakinar 
+                                         </h4>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="bi bi-clock " style="font-size: 28px;"></i>
+                                         <h4 class="pt-2 ">
+                                            Monday-Saturday 9:00 AM - 6:00 PM 
                                          </h4>
                                     </div>
                                     <div class="container" style="text-align: justify;">

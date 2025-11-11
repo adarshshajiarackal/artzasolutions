@@ -4438,3 +4438,40 @@ section,
   font-family: orbitron, sans-serif;
  }
 /* ========================Contact Page Details ========================== */
+.pop-over{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.613);
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: none;
+  font-size: 28px;
+  /* margin: 10px; */
+}
+.pop-container{
+  background-color: rgb(255, 255, 255);
+  display:flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* padding:0px; */
+  width: fit-content;
+  padding: 20px 10px ;
+  gap:40px;
+  border-radius: 10px;
+}
+.pop-share{
+    background-color: #0ef7f71d;
+    padding: 18px;
+    border-radius: 10px;
+    border:.4px solid rgba(0, 0, 255, 0.214);
+}
+.pop-btn-close{
+   top:-20px;
+   right:-10px;
+}
+.description p{
+   text-align:justify;
+}

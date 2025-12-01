@@ -4438,3 +4438,10 @@ section,
   font-family: orbitron, sans-serif;
  }
 /* ========================Contact Page Details ========================== */
+.cus-contact{
+  background-color: #10a2d757;
+  color:white;
+  font-size: 24px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
